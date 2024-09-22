@@ -6,26 +6,59 @@
             "id": "0535c12b-9e02-489a-bdbf-3278db7aa5a4",
             "actions": [
                 {
-                    "name": "Click",
-                    "type": "PassThrough",
+                    "name": "Primary Touch",
+                    "type": "Value",
                     "id": "3dd37080-382e-4f90-be2e-830fd30959a0",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "b96e8ff2-8b0d-4698-bc1f-9e5870555350",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Touchscreen>/primaryTouch/position",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "Editor (PC) Controls",
-                    "action": "Click",
+                    "action": "Primary Touch",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "Mouse Left Click",
+                    "id": "b3cdc728-a4e4-43a2-9d03-981cb1345817",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary Touch",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "f6832e59-9b1c-400a-83de-4044ce877b78",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Editor (PC) Controls",
+                    "action": "Primary Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "0758840b-d8e6-4de0-98cb-0ce9c5d38cf7",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Editor (PC) Controls",
+                    "action": "Primary Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
