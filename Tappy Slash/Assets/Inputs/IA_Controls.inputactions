@@ -2,7 +2,7 @@
     "name": "IA_Controls",
     "maps": [
         {
-            "name": "Dev Controls",
+            "name": "Mouse Controls",
             "id": "0535c12b-9e02-489a-bdbf-3278db7aa5a4",
             "actions": [
                 {
