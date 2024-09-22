@@ -48,7 +48,7 @@ public class Bladev1 : MonoBehaviour
 
     private void StartSlicing()
     {
-        Vector3 newPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, CameraDistance));
+        Vector3 newPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, CameraDistance +5));
 
         transform.position = newPosition;
 
@@ -67,7 +67,7 @@ public class Bladev1 : MonoBehaviour
 
     private void ContinueSlicing()
     {
-        Vector3 newPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, CameraDistance));
+        Vector3 newPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, CameraDistance + 5));
 
         direction = newPosition - transform.position;
 
