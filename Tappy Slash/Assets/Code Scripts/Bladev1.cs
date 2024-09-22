@@ -7,6 +7,7 @@ public class Bladev1 : MonoBehaviour
     private TrailRenderer bladeTrail;
     private bool slicing;
 
+    [SerializeField]float CameraDistance;  
     public Vector3 direction { get; private set; }
     public float minSliceVelocity = 0.01f;
 
@@ -47,8 +48,7 @@ public class Bladev1 : MonoBehaviour
 
     private void StartSlicing()
     {
-        Vector3 newPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        newPosition.z = 0f;
+        Vector3 newPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, CameraDistance));
 
         transform.position = newPosition;
 
@@ -67,8 +67,7 @@ public class Bladev1 : MonoBehaviour
 
     private void ContinueSlicing()
     {
-        Vector3 newPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        newPosition.z = 0f;
+        Vector3 newPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, CameraDistance));
 
         direction = newPosition - transform.position;
 
