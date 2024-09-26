@@ -11,4 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MikelWIP.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 888479f5b90800f46a31913e3da07f70, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a83c10d00ccaa054bafdb5d691a6045c, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: ff3f0267f4a416245bf8a1c4d2d8db0d, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 05896cc361d349d4c83ae32d87723ffa, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: c69890e68f33de34aba8f8530c1ad19b, type: 2}
