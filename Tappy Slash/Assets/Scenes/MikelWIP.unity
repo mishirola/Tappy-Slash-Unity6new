@@ -4968,13 +4968,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: m_MotionVectors
-      value: 1
+    - target: {fileID: -2477264909579661177, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
