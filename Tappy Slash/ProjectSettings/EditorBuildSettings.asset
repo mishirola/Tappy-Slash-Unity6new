@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/IntroSplash.unity
+    guid: 7e101943612ad48d08390e619555010f
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 96bf7f9b846fa4e72a1b6f08720a9c8e
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapScene.unity
     guid: 9e616033f6b5749b5ab1f4fe5eefca05
-  - enabled: 1
-    path: Assets/Scenes/IntroSplash.unity
-    guid: 7e101943612ad48d08390e619555010f
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 888479f5b90800f46a31913e3da07f70, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a83c10d00ccaa054bafdb5d691a6045c, type: 2}
