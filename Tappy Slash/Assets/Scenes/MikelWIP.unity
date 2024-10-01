@@ -5136,6 +5136,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1054433778280462596, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5179,6 +5183,18 @@ PrefabInstance:
     - target: {fileID: 2533985103165691058, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Name
       value: Enemy_PlaceHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628582160812606140, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7698221550518205289, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8104216651099263784, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: looping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8200832249909699641, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Materials.Array.data[0]
