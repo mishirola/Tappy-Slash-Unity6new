@@ -37,13 +37,13 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Tapping Touch"",
-                    ""type"": ""Value"",
-                    ""id"": ""ccc5e702-8401-42ca-b8c1-06ac01c25bf2"",
-                    ""expectedControlType"": ""Vector3"",
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""0d30a213-a714-4e9a-9ce8-7096afa823f8"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Tap,Hold"",
-                    ""initialStateCheck"": true
+                    ""interactions"": ""Hold"",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -93,47 +93,25 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""d6a71366-23d9-4aee-8eb7-e03567e8551d"",
-                    ""path"": ""Mouse Left Click"",
-                    ""interactions"": ""Tap"",
+                    ""id"": ""7c624e4f-362a-4783-8491-2972d622bb4a"",
+                    ""path"": ""<Touchscreen>/touch*/Press"",
+                    ""interactions"": ""Hold"",
                     ""processors"": """",
                     ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Tapping Touch"",
+                    ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""One Modifier"",
-                    ""id"": ""bb6531a5-2919-401b-b701-a565dc4d3a05"",
-                    ""path"": ""OneModifier"",
-                    ""interactions"": """",
+                    ""name"": """",
+                    ""id"": ""ab3df97c-6d02-4559-97e4-f9513071b22e"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Tapping Touch"",
-                    ""isComposite"": true,
+                    ""groups"": ""Editor (PC) Controls"",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""modifier"",
-                    ""id"": ""893b3c2f-3262-49c8-a81c-9101b4966f5a"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Tapping Touch"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""binding"",
-                    ""id"": ""7919fd77-5f7c-4307-a58a-7943af39944a"",
-                    ""path"": ""<Mouse>/position"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Tapping Touch"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
                 }
             ]
         },
@@ -199,7 +177,7 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
         // Mouse Controls
         m_MouseControls = asset.FindActionMap("Mouse Controls", throwIfNotFound: true);
         m_MouseControls_PrimaryTouch = m_MouseControls.FindAction("Primary Touch", throwIfNotFound: true);
-        m_MouseControls_TappingTouch = m_MouseControls.FindAction("Tapping Touch", throwIfNotFound: true);
+        m_MouseControls_Pause = m_MouseControls.FindAction("Pause", throwIfNotFound: true);
         // Game Controls
         m_GameControls = asset.FindActionMap("Game Controls", throwIfNotFound: true);
         m_GameControls_Click = m_GameControls.FindAction("Click", throwIfNotFound: true);
@@ -265,13 +243,13 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_MouseControls;
     private List<IMouseControlsActions> m_MouseControlsActionsCallbackInterfaces = new List<IMouseControlsActions>();
     private readonly InputAction m_MouseControls_PrimaryTouch;
-    private readonly InputAction m_MouseControls_TappingTouch;
+    private readonly InputAction m_MouseControls_Pause;
     public struct MouseControlsActions
     {
         private @IA_Controls m_Wrapper;
         public MouseControlsActions(@IA_Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @PrimaryTouch => m_Wrapper.m_MouseControls_PrimaryTouch;
-        public InputAction @TappingTouch => m_Wrapper.m_MouseControls_TappingTouch;
+        public InputAction @Pause => m_Wrapper.m_MouseControls_Pause;
         public InputActionMap Get() { return m_Wrapper.m_MouseControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -284,9 +262,9 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
             @PrimaryTouch.started += instance.OnPrimaryTouch;
             @PrimaryTouch.performed += instance.OnPrimaryTouch;
             @PrimaryTouch.canceled += instance.OnPrimaryTouch;
-            @TappingTouch.started += instance.OnTappingTouch;
-            @TappingTouch.performed += instance.OnTappingTouch;
-            @TappingTouch.canceled += instance.OnTappingTouch;
+            @Pause.started += instance.OnPause;
+            @Pause.performed += instance.OnPause;
+            @Pause.canceled += instance.OnPause;
         }
 
         private void UnregisterCallbacks(IMouseControlsActions instance)
@@ -294,9 +272,9 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
             @PrimaryTouch.started -= instance.OnPrimaryTouch;
             @PrimaryTouch.performed -= instance.OnPrimaryTouch;
             @PrimaryTouch.canceled -= instance.OnPrimaryTouch;
-            @TappingTouch.started -= instance.OnTappingTouch;
-            @TappingTouch.performed -= instance.OnTappingTouch;
-            @TappingTouch.canceled -= instance.OnTappingTouch;
+            @Pause.started -= instance.OnPause;
+            @Pause.performed -= instance.OnPause;
+            @Pause.canceled -= instance.OnPause;
         }
 
         public void RemoveCallbacks(IMouseControlsActions instance)
@@ -381,7 +359,7 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     public interface IMouseControlsActions
     {
         void OnPrimaryTouch(InputAction.CallbackContext context);
-        void OnTappingTouch(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
     public interface IGameControlsActions
     {
