@@ -28,9 +28,18 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
             ""id"": ""0535c12b-9e02-489a-bdbf-3278db7aa5a4"",
             ""actions"": [
                 {
-                    ""name"": ""Primary Touch"",
+                    ""name"": ""Press"",
                     ""type"": ""Value"",
                     ""id"": ""3dd37080-382e-4f90-be2e-830fd30959a0"",
+                    ""expectedControlType"": ""Vector3"",
+                    ""processors"": """",
+                    ""interactions"": ""Press"",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Hold"",
+                    ""type"": ""Value"",
+                    ""id"": ""ab4ddd07-ddc5-479c-9048-6f309ed6d9e4"",
                     ""expectedControlType"": ""Vector3"",
                     ""processors"": """",
                     ""interactions"": ""Hold"",
@@ -51,10 +60,10 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""b96e8ff2-8b0d-4698-bc1f-9e5870555350"",
                     ""path"": ""<Touchscreen>/primaryTouch/position"",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Primary Touch"",
+                    ""action"": ""Press"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -62,10 +71,10 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""name"": ""Mouse Left Click"",
                     ""id"": ""b3cdc728-a4e4-43a2-9d03-981cb1345817"",
                     ""path"": ""OneModifier"",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Primary Touch"",
+                    ""action"": ""Press"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -76,7 +85,7 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Primary Touch"",
+                    ""action"": ""Press"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -87,7 +96,7 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Primary Touch"",
+                    ""action"": ""Press"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -101,6 +110,50 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""360f03e3-da34-411c-8844-cf4885d90acb"",
+                    ""path"": ""<Touchscreen>/primaryTouch/position"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": ""Editor (PC) Controls"",
+                    ""action"": ""Hold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Mouse Left Click"",
+                    ""id"": ""37435942-ce12-4182-9829-5de6afcb9519"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Hold"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""709760d8-6ec9-44bb-9d3d-c56f2ef09c2e"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Editor (PC) Controls"",
+                    ""action"": ""Hold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""2ccb1d42-bc99-4dc7-96d0-76c97b7c8f75"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Editor (PC) Controls"",
+                    ""action"": ""Hold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         },
@@ -165,7 +218,8 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
 }");
         // Mouse Controls
         m_MouseControls = asset.FindActionMap("Mouse Controls", throwIfNotFound: true);
-        m_MouseControls_PrimaryTouch = m_MouseControls.FindAction("Primary Touch", throwIfNotFound: true);
+        m_MouseControls_Press = m_MouseControls.FindAction("Press", throwIfNotFound: true);
+        m_MouseControls_Hold = m_MouseControls.FindAction("Hold", throwIfNotFound: true);
         m_MouseControls_Pause = m_MouseControls.FindAction("Pause", throwIfNotFound: true);
         // Game Controls
         m_GameControls = asset.FindActionMap("Game Controls", throwIfNotFound: true);
@@ -231,13 +285,15 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     // Mouse Controls
     private readonly InputActionMap m_MouseControls;
     private List<IMouseControlsActions> m_MouseControlsActionsCallbackInterfaces = new List<IMouseControlsActions>();
-    private readonly InputAction m_MouseControls_PrimaryTouch;
+    private readonly InputAction m_MouseControls_Press;
+    private readonly InputAction m_MouseControls_Hold;
     private readonly InputAction m_MouseControls_Pause;
     public struct MouseControlsActions
     {
         private @IA_Controls m_Wrapper;
         public MouseControlsActions(@IA_Controls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @PrimaryTouch => m_Wrapper.m_MouseControls_PrimaryTouch;
+        public InputAction @Press => m_Wrapper.m_MouseControls_Press;
+        public InputAction @Hold => m_Wrapper.m_MouseControls_Hold;
         public InputAction @Pause => m_Wrapper.m_MouseControls_Pause;
         public InputActionMap Get() { return m_Wrapper.m_MouseControls; }
         public void Enable() { Get().Enable(); }
@@ -248,9 +304,12 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_MouseControlsActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_MouseControlsActionsCallbackInterfaces.Add(instance);
-            @PrimaryTouch.started += instance.OnPrimaryTouch;
-            @PrimaryTouch.performed += instance.OnPrimaryTouch;
-            @PrimaryTouch.canceled += instance.OnPrimaryTouch;
+            @Press.started += instance.OnPress;
+            @Press.performed += instance.OnPress;
+            @Press.canceled += instance.OnPress;
+            @Hold.started += instance.OnHold;
+            @Hold.performed += instance.OnHold;
+            @Hold.canceled += instance.OnHold;
             @Pause.started += instance.OnPause;
             @Pause.performed += instance.OnPause;
             @Pause.canceled += instance.OnPause;
@@ -258,9 +317,12 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
 
         private void UnregisterCallbacks(IMouseControlsActions instance)
         {
-            @PrimaryTouch.started -= instance.OnPrimaryTouch;
-            @PrimaryTouch.performed -= instance.OnPrimaryTouch;
-            @PrimaryTouch.canceled -= instance.OnPrimaryTouch;
+            @Press.started -= instance.OnPress;
+            @Press.performed -= instance.OnPress;
+            @Press.canceled -= instance.OnPress;
+            @Hold.started -= instance.OnHold;
+            @Hold.performed -= instance.OnHold;
+            @Hold.canceled -= instance.OnHold;
             @Pause.started -= instance.OnPause;
             @Pause.performed -= instance.OnPause;
             @Pause.canceled -= instance.OnPause;
@@ -347,7 +409,8 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     }
     public interface IMouseControlsActions
     {
-        void OnPrimaryTouch(InputAction.CallbackContext context);
+        void OnPress(InputAction.CallbackContext context);
+        void OnHold(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
     }
     public interface IGameControlsActions
