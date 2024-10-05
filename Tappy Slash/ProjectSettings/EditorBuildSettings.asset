@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapScene.unity
     guid: 9e616033f6b5749b5ab1f4fe5eefca05
+  - enabled: 1
+    path: Assets/Scenes/TrainingRoom.unity
+    guid: 71e147e2e25ae43ab82eed68eb245d1c
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 888479f5b90800f46a31913e3da07f70, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a83c10d00ccaa054bafdb5d691a6045c, type: 2}
