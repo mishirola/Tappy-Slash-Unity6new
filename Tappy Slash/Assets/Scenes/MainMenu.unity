@@ -1684,7 +1684,7 @@ GameObject:
   - component: {fileID: 847132007}
   - component: {fileID: 847132006}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: SlicingCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3736,7 +3736,7 @@ MonoBehaviour:
     Mikel - Programmer
 
     Javon
-    - Programmer
+    - FX / Playtester
 
     Chaerin - 3D Artist
 
