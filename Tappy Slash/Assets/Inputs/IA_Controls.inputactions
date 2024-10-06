@@ -25,9 +25,9 @@
                 },
                 {
                     "name": "Pause",
-                    "type": "Value",
-                    "id": "0d30a213-a714-4e9a-9ce8-7096afa823f8",
-                    "expectedControlType": "Key",
+                    "type": "Button",
+                    "id": "a73de6bf-e60d-4d5b-9f47-e0fd88d3c60d",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press(behavior=2)",
                     "initialStateCheck": true
@@ -80,17 +80,6 @@
                 },
                 {
                     "name": "",
-                    "id": "ab3df97c-6d02-4559-97e4-f9513071b22e",
-                    "path": "<Keyboard>/space",
-                    "interactions": "Press(behavior=2)",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "360f03e3-da34-411c-8844-cf4885d90acb",
                     "path": "<Touchscreen>/primaryTouch/position",
                     "interactions": "Hold",
@@ -132,6 +121,17 @@
                     "action": "Hold",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "93b20203-0f1c-442f-85f6-4636a2148bfe",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "Editor (PC) Controls",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
