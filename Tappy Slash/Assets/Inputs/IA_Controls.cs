@@ -44,15 +44,6 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": ""Hold"",
                     ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Pause"",
-                    ""type"": ""Button"",
-                    ""id"": ""a73de6bf-e60d-4d5b-9f47-e0fd88d3c60d"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": ""Press(behavior=2)"",
-                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -143,17 +134,6 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Hold"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""93b20203-0f1c-442f-85f6-4636a2148bfe"",
-                    ""path"": ""<Mouse>/middleButton"",
-                    ""interactions"": ""Press(behavior=2)"",
-                    ""processors"": """",
-                    ""groups"": ""Editor (PC) Controls"",
-                    ""action"": ""Pause"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -220,7 +200,6 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
         m_MouseControls = asset.FindActionMap("Mouse Controls", throwIfNotFound: true);
         m_MouseControls_Press = m_MouseControls.FindAction("Press", throwIfNotFound: true);
         m_MouseControls_Hold = m_MouseControls.FindAction("Hold", throwIfNotFound: true);
-        m_MouseControls_Pause = m_MouseControls.FindAction("Pause", throwIfNotFound: true);
         // Game Controls
         m_GameControls = asset.FindActionMap("Game Controls", throwIfNotFound: true);
         m_GameControls_Click = m_GameControls.FindAction("Click", throwIfNotFound: true);
@@ -287,14 +266,12 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     private List<IMouseControlsActions> m_MouseControlsActionsCallbackInterfaces = new List<IMouseControlsActions>();
     private readonly InputAction m_MouseControls_Press;
     private readonly InputAction m_MouseControls_Hold;
-    private readonly InputAction m_MouseControls_Pause;
     public struct MouseControlsActions
     {
         private @IA_Controls m_Wrapper;
         public MouseControlsActions(@IA_Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Press => m_Wrapper.m_MouseControls_Press;
         public InputAction @Hold => m_Wrapper.m_MouseControls_Hold;
-        public InputAction @Pause => m_Wrapper.m_MouseControls_Pause;
         public InputActionMap Get() { return m_Wrapper.m_MouseControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -310,9 +287,6 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
             @Hold.started += instance.OnHold;
             @Hold.performed += instance.OnHold;
             @Hold.canceled += instance.OnHold;
-            @Pause.started += instance.OnPause;
-            @Pause.performed += instance.OnPause;
-            @Pause.canceled += instance.OnPause;
         }
 
         private void UnregisterCallbacks(IMouseControlsActions instance)
@@ -323,9 +297,6 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
             @Hold.started -= instance.OnHold;
             @Hold.performed -= instance.OnHold;
             @Hold.canceled -= instance.OnHold;
-            @Pause.started -= instance.OnPause;
-            @Pause.performed -= instance.OnPause;
-            @Pause.canceled -= instance.OnPause;
         }
 
         public void RemoveCallbacks(IMouseControlsActions instance)
@@ -411,7 +382,6 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     {
         void OnPress(InputAction.CallbackContext context);
         void OnHold(InputAction.CallbackContext context);
-        void OnPause(InputAction.CallbackContext context);
     }
     public interface IGameControlsActions
     {
