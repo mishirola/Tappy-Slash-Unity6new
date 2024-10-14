@@ -22,15 +22,6 @@
                     "processors": "",
                     "interactions": "Hold",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Pause",
-                    "type": "Button",
-                    "id": "a73de6bf-e60d-4d5b-9f47-e0fd88d3c60d",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "Press(behavior=2)",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -121,17 +112,6 @@
                     "action": "Hold",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "93b20203-0f1c-442f-85f6-4636a2148bfe",
-                    "path": "<Mouse>/middleButton",
-                    "interactions": "Press(behavior=2)",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
