@@ -6,21 +6,21 @@
             "id": "0535c12b-9e02-489a-bdbf-3278db7aa5a4",
             "actions": [
                 {
-                    "name": "Press",
-                    "type": "Value",
-                    "id": "3dd37080-382e-4f90-be2e-830fd30959a0",
-                    "expectedControlType": "Vector3",
-                    "processors": "",
-                    "interactions": "Press",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "Hold",
                     "type": "Value",
                     "id": "ab4ddd07-ddc5-479c-9048-6f309ed6d9e4",
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "Hold",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Press",
+                    "type": "Value",
+                    "id": "3dd37080-382e-4f90-be2e-830fd30959a0",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "Press",
                     "initialStateCheck": true
                 }
             ],

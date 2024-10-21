@@ -28,21 +28,21 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
             ""id"": ""0535c12b-9e02-489a-bdbf-3278db7aa5a4"",
             ""actions"": [
                 {
-                    ""name"": ""Press"",
-                    ""type"": ""Value"",
-                    ""id"": ""3dd37080-382e-4f90-be2e-830fd30959a0"",
-                    ""expectedControlType"": ""Vector3"",
-                    ""processors"": """",
-                    ""interactions"": ""Press"",
-                    ""initialStateCheck"": true
-                },
-                {
                     ""name"": ""Hold"",
                     ""type"": ""Value"",
                     ""id"": ""ab4ddd07-ddc5-479c-9048-6f309ed6d9e4"",
                     ""expectedControlType"": ""Vector3"",
                     ""processors"": """",
                     ""interactions"": ""Hold"",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Press"",
+                    ""type"": ""Value"",
+                    ""id"": ""3dd37080-382e-4f90-be2e-830fd30959a0"",
+                    ""expectedControlType"": ""Vector3"",
+                    ""processors"": """",
+                    ""interactions"": ""Press"",
                     ""initialStateCheck"": true
                 }
             ],
@@ -198,8 +198,8 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
 }");
         // Mouse Controls
         m_MouseControls = asset.FindActionMap("Mouse Controls", throwIfNotFound: true);
-        m_MouseControls_Press = m_MouseControls.FindAction("Press", throwIfNotFound: true);
         m_MouseControls_Hold = m_MouseControls.FindAction("Hold", throwIfNotFound: true);
+        m_MouseControls_Press = m_MouseControls.FindAction("Press", throwIfNotFound: true);
         // Game Controls
         m_GameControls = asset.FindActionMap("Game Controls", throwIfNotFound: true);
         m_GameControls_Click = m_GameControls.FindAction("Click", throwIfNotFound: true);
@@ -264,14 +264,14 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     // Mouse Controls
     private readonly InputActionMap m_MouseControls;
     private List<IMouseControlsActions> m_MouseControlsActionsCallbackInterfaces = new List<IMouseControlsActions>();
-    private readonly InputAction m_MouseControls_Press;
     private readonly InputAction m_MouseControls_Hold;
+    private readonly InputAction m_MouseControls_Press;
     public struct MouseControlsActions
     {
         private @IA_Controls m_Wrapper;
         public MouseControlsActions(@IA_Controls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Press => m_Wrapper.m_MouseControls_Press;
         public InputAction @Hold => m_Wrapper.m_MouseControls_Hold;
+        public InputAction @Press => m_Wrapper.m_MouseControls_Press;
         public InputActionMap Get() { return m_Wrapper.m_MouseControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -281,22 +281,22 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_MouseControlsActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_MouseControlsActionsCallbackInterfaces.Add(instance);
-            @Press.started += instance.OnPress;
-            @Press.performed += instance.OnPress;
-            @Press.canceled += instance.OnPress;
             @Hold.started += instance.OnHold;
             @Hold.performed += instance.OnHold;
             @Hold.canceled += instance.OnHold;
+            @Press.started += instance.OnPress;
+            @Press.performed += instance.OnPress;
+            @Press.canceled += instance.OnPress;
         }
 
         private void UnregisterCallbacks(IMouseControlsActions instance)
         {
-            @Press.started -= instance.OnPress;
-            @Press.performed -= instance.OnPress;
-            @Press.canceled -= instance.OnPress;
             @Hold.started -= instance.OnHold;
             @Hold.performed -= instance.OnHold;
             @Hold.canceled -= instance.OnHold;
+            @Press.started -= instance.OnPress;
+            @Press.performed -= instance.OnPress;
+            @Press.canceled -= instance.OnPress;
         }
 
         public void RemoveCallbacks(IMouseControlsActions instance)
@@ -380,8 +380,8 @@ public partial class @IA_Controls: IInputActionCollection2, IDisposable
     }
     public interface IMouseControlsActions
     {
-        void OnPress(InputAction.CallbackContext context);
         void OnHold(InputAction.CallbackContext context);
+        void OnPress(InputAction.CallbackContext context);
     }
     public interface IGameControlsActions
     {
