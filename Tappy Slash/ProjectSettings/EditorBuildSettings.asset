@@ -26,6 +26,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrainingRoom.unity
     guid: 71e147e2e25ae43ab82eed68eb245d1c
+  - enabled: 1
+    path: Assets/Scenes/MapPt3.unity
+    guid: 724561598cd0541ebba8d8a075a29c1b
+  - enabled: 1
+    path: Assets/Scenes/MapPt2.unity
+    guid: 56387ccc4b8554b4db32278a4b87f39e
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Scene.unity
+    guid: e2f03783ea229004187f02cffa6c6ccd
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Scene WIP.unity
+    guid: ebf1370a98d5dc144819d0a1740a89d3
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 888479f5b90800f46a31913e3da07f70, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a83c10d00ccaa054bafdb5d691a6045c, type: 2}
