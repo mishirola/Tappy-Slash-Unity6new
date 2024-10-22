@@ -32543,16 +32543,26 @@ PrefabInstance:
         UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ComboStat","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ComboCtrlRef","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyDamage","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerBlockButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 748102412}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 1288863442}
+    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1560629027}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -32602,6 +32612,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+--- !u!198 &748102412 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 344941110784463422, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+  m_PrefabInstance: {fileID: 748102411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &748792035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3812a106ec332684ba79b1a0f0369d81, type: 3}
@@ -83186,16 +83201,26 @@ PrefabInstance:
         UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ComboStat","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ComboCtrlRef","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyDamage","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerBlockButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1919484804}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 1288863442}
+    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1560629027}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -83245,6 +83270,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+--- !u!198 &1919484804 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 344941110784463422, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+  m_PrefabInstance: {fileID: 1919484803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1919798371
 PrefabInstance:
   m_ObjectHideFlags: 0
