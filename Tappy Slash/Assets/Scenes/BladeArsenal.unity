@@ -237,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5ebc02b693d0d4234afbe16df371ed8f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b20546b2b9b3419f8899b5fd0efff9a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d83ad9272e50942cfbd8d508f316b573, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b49c6ad18a46b48d8830b67bed46a17f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c7e152ff43b444d91985f08eb788cb28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5986e1c256e56483798dfac5184e3606, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1843,7 +1843,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2036bec4f4411450294d0e7b61cba7d9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d666712473ea4b7990187abe70699f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 233d2055fe8e64b7ab7eaf71ab51a7fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89dace594737440c78e31ed8ac162aa2, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1978,6 +1978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1474678703}
   - component: {fileID: 1474678702}
+  - component: {fileID: 1474678704}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2062,6 +2063,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1474678704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474678701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1482228978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,7 +2422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 626377052f33e48ce9a343c8aea5679a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce307e2f6660a42d3b4e79f56094e449, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2552,7 +2576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3644970262e7744dc92293dee58c8f45, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e886e9bc957064ef3a1e661fddde2e6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
