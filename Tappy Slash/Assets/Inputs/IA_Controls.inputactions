@@ -2,165 +2,110 @@
     "name": "IA_Controls",
     "maps": [
         {
-            "name": "Mouse Controls",
-            "id": "0535c12b-9e02-489a-bdbf-3278db7aa5a4",
-            "actions": [
-                {
-                    "name": "Hold",
-                    "type": "Value",
-                    "id": "ab4ddd07-ddc5-479c-9048-6f309ed6d9e4",
-                    "expectedControlType": "Vector3",
-                    "processors": "",
-                    "interactions": "Hold",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Press",
-                    "type": "Value",
-                    "id": "3dd37080-382e-4f90-be2e-830fd30959a0",
-                    "expectedControlType": "Vector3",
-                    "processors": "",
-                    "interactions": "Press",
-                    "initialStateCheck": true
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "b96e8ff2-8b0d-4698-bc1f-9e5870555350",
-                    "path": "<Touchscreen>/primaryTouch/position",
-                    "interactions": "Press",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Press",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Mouse Left Click",
-                    "id": "b3cdc728-a4e4-43a2-9d03-981cb1345817",
-                    "path": "OneModifier",
-                    "interactions": "Press",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Press",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "f6832e59-9b1c-400a-83de-4044ce877b78",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Press",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "0758840b-d8e6-4de0-98cb-0ce9c5d38cf7",
-                    "path": "<Mouse>/position",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Press",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "360f03e3-da34-411c-8844-cf4885d90acb",
-                    "path": "<Touchscreen>/primaryTouch/position",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Hold",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Mouse Left Click",
-                    "id": "37435942-ce12-4182-9829-5de6afcb9519",
-                    "path": "OneModifier",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Hold",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "709760d8-6ec9-44bb-9d3d-c56f2ef09c2e",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Hold",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "2ccb1d42-bc99-4dc7-96d0-76c97b7c8f75",
-                    "path": "<Mouse>/position",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Editor (PC) Controls",
-                    "action": "Hold",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                }
-            ]
-        },
-        {
             "name": "Game Controls",
             "id": "d1c061d0-352c-4212-9baa-899740e19415",
             "actions": [
                 {
-                    "name": "Click",
-                    "type": "PassThrough",
+                    "name": "Tap",
+                    "type": "Value",
                     "id": "7469828d-9423-42fb-9517-c23289b743cd",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector3",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": "Tap",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Slash",
+                    "type": "Value",
+                    "id": "b11452ce-4fb5-40b0-9cb5-76f547410f9d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "aa97c6d5-0a4b-463c-9e40-0cf92b5ccfc1",
-                    "path": "<Touchscreen>/Press",
-                    "interactions": "Press(behavior=2)",
+                    "name": "One Modifier",
+                    "id": "5210f848-e545-4c5a-93f1-1513bf47cb5a",
+                    "path": "OneModifier",
+                    "interactions": "",
                     "processors": "",
-                    "groups": "Game Controls",
-                    "action": "Click",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "47a0a468-68fd-4d7b-a722-156982e2e199",
+                    "path": "<Touchscreen>/touch1/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "44afa84e-8722-4721-9b35-4f87b6c0ae4d",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "51fd39cf-c465-44e5-8515-4d970e80b7b9",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slash",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "63d43ece-96c8-4a5a-a011-3fda94956d8a",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slash",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "7ec58b34-07b7-4eb7-a0eb-62afb435cd60",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slash",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "6bceadd8-04d2-4fb8-bc9a-d587637fc636",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slash",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
     ],
     "controlSchemes": [
-        {
-            "name": "Editor (PC) Controls",
-            "bindingGroup": "Editor (PC) Controls",
-            "devices": [
-                {
-                    "devicePath": "<Touchscreen>",
-                    "isOptional": true,
-                    "isOR": false
-                },
-                {
-                    "devicePath": "<Mouse>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
         {
             "name": "Game Controls",
             "bindingGroup": "Game Controls",
