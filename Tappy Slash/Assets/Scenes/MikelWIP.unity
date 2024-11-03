@@ -43512,6 +43512,14 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontStyle
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1188447956098349868, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: Game Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188447956098349868, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
+      propertyPath: m_DefaultControlScheme
+      value: Game Controls
+      objectReference: {fileID: 0}
     - target: {fileID: 3749426335295417217, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
       propertyPath: m_IsActive
       value: 1
