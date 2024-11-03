@@ -1013,8 +1013,8 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Editor (PC) Controls
-  m_DefaultActionMap: Mouse Controls
+  m_DefaultControlScheme: Game Controls
+  m_DefaultActionMap: Game Controls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 5785259350012154151}
 --- !u!54 &966820628933100567
