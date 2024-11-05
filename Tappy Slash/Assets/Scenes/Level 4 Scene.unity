@@ -72466,6 +72466,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2024907487}
+    - target: {fileID: 3528578325028170116, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4012153557674674091, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -189.49995
@@ -72493,6 +72497,10 @@ PrefabInstance:
     - target: {fileID: 4910453054616501440, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926980875499680343, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5013216395602462569, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_Enabled
@@ -72545,6 +72553,10 @@ PrefabInstance:
     - target: {fileID: 6463878539901438152, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155144554278192887, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -354.6
       objectReference: {fileID: 0}
     - target: {fileID: 7453983045339387707, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
