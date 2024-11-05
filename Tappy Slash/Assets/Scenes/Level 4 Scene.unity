@@ -43599,13 +43599,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895325213}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.000000019502, y: 0.00000023016, z: 0.00000005909}
-  m_LocalScale: {x: 0.39012, y: 0.39012, z: 0.39012}
+  m_LocalRotation: {x: -0.059258677, y: -0.6997945, z: -0.70947856, w: 0.05844984}
+  m_LocalPosition: {x: 0.016, y: 0.073, z: 0.094}
+  m_LocalScale: {x: 0.29701784, y: 0.29701784, z: 0.29701784}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1280665409}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.787, y: -170.451, z: 0}
 --- !u!135 &895325215
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -43647,7 +43647,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8826a104e35a5e840adfd8f57457d5e0, type: 2}
+  - {fileID: 2100000, guid: cd92cdc0382024f9ab87cdbe07359b16, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43676,7 +43676,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895325213}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 8619999405904408050, guid: 6938714e66ead424abdda10b88de15ad, type: 3}
 --- !u!1 &902337071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8219591096075371234, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
@@ -70802,11 +70802,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1825354738072309038, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.29999924
+      value: 0.30000305
       objectReference: {fileID: 0}
     - target: {fileID: 1825354738072309038, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.800003
+      value: -5.799988
       objectReference: {fileID: 0}
     - target: {fileID: 3228749384226732089, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: m_LocalScale.x
