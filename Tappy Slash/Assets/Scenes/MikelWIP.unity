@@ -15715,7 +15715,8 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyDamage","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerBlockButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyValue","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -38467,7 +38468,8 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyDamage","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerBlockButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyValue","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -43497,7 +43499,8 @@ PrefabInstance:
         UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyDamage","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerBlockButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyValue","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -43741,7 +43744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592382454707049678, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.100006
+      value: -5.1000366
       objectReference: {fileID: 0}
     - target: {fileID: 3749426335295417217, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
       propertyPath: m_IsActive
