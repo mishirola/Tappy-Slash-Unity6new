@@ -8,6 +8,8 @@ TagManager:
   - WinMM
   - LoseA
   - LoseMM
+  - ComboText
+  - BlockButton
   layers:
   - Default
   - TransparentFX
