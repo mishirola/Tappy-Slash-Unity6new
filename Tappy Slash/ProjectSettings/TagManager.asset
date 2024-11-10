@@ -10,6 +10,7 @@ TagManager:
   - LoseMM
   - ComboText
   - BlockButton
+  - Enemy
   layers:
   - Default
   - TransparentFX
