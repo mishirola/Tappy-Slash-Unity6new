@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 3403545857672762977}
   m_Layer: 5
   m_Name: comboText (1)
-  m_TagString: Untagged
+  m_TagString: ComboText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
