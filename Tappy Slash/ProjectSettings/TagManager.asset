@@ -9,8 +9,8 @@ TagManager:
   - LoseA
   - LoseMM
   - ComboText
-  - BlockButton
   - Enemy
+  - NextPos
   layers:
   - Default
   - TransparentFX
