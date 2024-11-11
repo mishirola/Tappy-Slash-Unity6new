@@ -15704,28 +15704,7 @@ PrefabInstance:
     - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b4de45ed596078d4b84fed5ef2116392, type: 2}
-    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"MaxEnemyHealth","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HitFX","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.ParticleSystem,
-        UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ComboStat","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ComboCtrlRef","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyDamage","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerBlockButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyValue","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 748102412}
+      objectReference: {fileID: 2100000, guid: 5d904a93ddd87164cb9aebe4f60304ac, type: 2}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
@@ -15735,17 +15714,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 977549427}
     - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: m_ImportantGI
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-      propertyPath: m_MotionVectors
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9289574ebe65648fd8fca362d9f81669, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d904a93ddd87164cb9aebe4f60304ac, type: 2}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -15795,11 +15766,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
---- !u!198 &748102412 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 344941110784463422, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
-  m_PrefabInstance: {fileID: 748102411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &748792035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3812a106ec332684ba79b1a0f0369d81, type: 3}
@@ -29199,79 +29165,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ebb66ea05226684f9f2de7b9374c922, type: 3}
   m_PrefabInstance: {fileID: 554507592}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1470977296
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 164.52
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 164.52
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 164.52
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20.42
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.42
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 53.63
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7480513
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.663641
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -83.156
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: aba57b9bb05094f949761e494936141a, type: 2}
-    - target: {fileID: 919132149155446097, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
-      propertyPath: m_Name
-      value: SM_Dragon_Low
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 565a627edea70fd48aa3f4a555302c1f, type: 3}
 --- !u!4 &1473954367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ebb66ea05226684f9f2de7b9374c922, type: 3}
@@ -38459,7 +38352,7 @@ PrefabInstance:
     - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 58941a0306b41a748bbc371b4bd768a4, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d904a93ddd87164cb9aebe4f60304ac, type: 2}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"MaxEnemyHealth","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -38500,7 +38393,7 @@ PrefabInstance:
     - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9289574ebe65648fd8fca362d9f81669, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d904a93ddd87164cb9aebe4f60304ac, type: 2}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -43491,6 +43384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d904a93ddd87164cb9aebe4f60304ac, type: 2}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"MaxEnemyHealth","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -43527,7 +43424,7 @@ PrefabInstance:
     - target: {fileID: 1722830140681084336, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9289574ebe65648fd8fca362d9f81669, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d904a93ddd87164cb9aebe4f60304ac, type: 2}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -44073,7 +43970,6 @@ SceneRoots:
   - {fileID: 2726664018729633568}
   - {fileID: 2134366708}
   - {fileID: 747484735}
-  - {fileID: 1470977296}
   - {fileID: 987332436}
   - {fileID: 1304143599}
   - {fileID: 1330305917}

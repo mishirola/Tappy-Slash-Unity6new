@@ -5200,6 +5200,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5462212442776734483d789b774b5d01, type: 2}
     - target: {fileID: 870646483306753293, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -8974,6 +8978,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5462212442776734483d789b774b5d01, type: 2}
     - target: {fileID: 870646483306753293, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -13949,6 +13957,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5462212442776734483d789b774b5d01, type: 2}
     - target: {fileID: 870646483306753293, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -17173,6 +17185,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 764035099142969629, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5462212442776734483d789b774b5d01, type: 2}
     - target: {fileID: 870646483306753293, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
