@@ -54434,7 +54434,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6198981833265200904, guid: deed99525d035468bbef2cf9d0757cca, type: 3}
       propertyPath: _newGameLevel
-      value: MainMenu
+      value: Postlogue
       objectReference: {fileID: 0}
     - target: {fileID: 2120180731737787960, guid: deed99525d035468bbef2cf9d0757cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72459,6 +72459,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3660344153347190584, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fcbc7a2d268d746f4a149065e2d9bf1d, type: 3}
+    - target: {fileID: 3941313564788976103, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_Name
+      value: Btn
+      objectReference: {fileID: 0}
     - target: {fileID: 4012153557674674091, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -189.49995
@@ -72543,9 +72551,33 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7062041158556462733, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 673ff3fc3051d451a832e7acb3ecfd03, type: 3}
+    - target: {fileID: 7062041158556462733, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155144554278192887, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155144554278192887, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155144554278192887, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.7593348
+      objectReference: {fileID: 0}
     - target: {fileID: 7155144554278192887, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -354.6
+      value: -440
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155144554278192887, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7453983045339387707, guid: 4cc09c55d8d7a8e4aa0d0e56173b4338, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
