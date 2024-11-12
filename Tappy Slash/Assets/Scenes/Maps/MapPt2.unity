@@ -679,7 +679,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6198981833265200904, guid: deed99525d035468bbef2cf9d0757cca, type: 3}
       propertyPath: _newGameLevel
-      value: Level 2 Scene
+      value: Prologue2
       objectReference: {fileID: 0}
     - target: {fileID: 2120180731737787960, guid: deed99525d035468bbef2cf9d0757cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1022,7 +1022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.23250002, y: 0.18640535}
   m_AnchorMax: {x: 0.41375002, y: 0.2925134}
-  m_AnchoredPosition: {x: 340, y: 277}
+  m_AnchoredPosition: {x: 340, y: 276.99997}
   m_SizeDelta: {x: -45, y: -51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1283446419
@@ -1444,7 +1444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 50.803}
   m_AnchorMin: {x: 0.38250002, y: 0.17448664}
   m_AnchorMax: {x: 0.55, y: 0.25740537}
-  m_AnchoredPosition: {x: 319, y: 333}
+  m_AnchoredPosition: {x: 319, y: 333.00003}
   m_SizeDelta: {x: -34, y: -18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557009127

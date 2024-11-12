@@ -679,7 +679,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6198981833265200904, guid: deed99525d035468bbef2cf9d0757cca, type: 3}
       propertyPath: _newGameLevel
-      value: Level 4 Scene
+      value: Prologue4
       objectReference: {fileID: 0}
     - target: {fileID: 2120180731737787960, guid: deed99525d035468bbef2cf9d0757cca, type: 3}
       propertyPath: m_LocalPosition.x
