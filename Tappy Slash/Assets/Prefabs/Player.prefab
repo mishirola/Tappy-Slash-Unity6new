@@ -966,11 +966,13 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerTurnAmtDoNotTouch","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"PlayerTurnSpeedDoNotTouch","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"EndCanvasUI","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CloseTutorial","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"HasTutorial","value":null,"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WinLevelScene","value":null,"typeHandle":{"Identification":"System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6490008180452335826}
     - {fileID: 4967680625819406456}
     - {fileID: 4005237372473903269}
+    - {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
 --- !u!114 &8685396435055708709
 MonoBehaviour:
   m_ObjectHideFlags: 0
