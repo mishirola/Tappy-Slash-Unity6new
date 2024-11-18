@@ -43715,6 +43715,10 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3170360037610216504, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2aab74f59b4f74109abfc0ececcead18, type: 3}
     - target: {fileID: 3592382454707049678, guid: 0f97ee457e38e2045ac084fa5c7501b3, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.976261
