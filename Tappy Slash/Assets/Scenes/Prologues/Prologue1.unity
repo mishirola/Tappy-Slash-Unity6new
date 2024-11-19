@@ -330,8 +330,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hailing from the small village of blank, nobody knows who you are. You
-    want to prove everyone wrong and show them that you can become king of blank.
+  m_text: 'Hailing from the small village of Tapleton, nobody knows who you are.
+    You want to prove everyone wrong and show them that you can become king of Tapslashia.
 
     To
     start your adventure, you leave your small village towards the empire and through
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
+  m_fontSize: 80
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
