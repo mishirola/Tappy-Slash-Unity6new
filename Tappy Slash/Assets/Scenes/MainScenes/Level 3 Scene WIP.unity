@@ -1935,11 +1935,11 @@ PrefabInstance:
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: 850480111023e754badb4226b79fdb5a, type: 3}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: b9928d118c7d3744a8701901304c2e40, type: 3}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.65
@@ -3479,11 +3479,11 @@ PrefabInstance:
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: 850480111023e754badb4226b79fdb5a, type: 3}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: b9928d118c7d3744a8701901304c2e40, type: 3}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.58
@@ -16901,13 +16901,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CloseTutorial","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"HasTutorial","value":null,"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WinLevelScene","value":{"$content":"MapPt4","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TapSFX","value":null,"typeHandle":{"Identification":"UnityEngine.AudioClip,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SlashBegin","value":null,"typeHandle":{"Identification":"UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TapSFX","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SlashBegin","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7197016690634258194, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7197016690634258194, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
@@ -16940,7 +16940,15 @@ PrefabInstance:
     - target: {fileID: 7197016690634258194, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: _data._objectReferences.Array.data[8]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: 533fc1be56e0ff645bf0864c80b56e2d, type: 3}
+    - target: {fileID: 7197016690634258194, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
+      propertyPath: _data._objectReferences.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 67f3400f4b1a8a949a0b8ee724e06de0, type: 3}
+    - target: {fileID: 7197016690634258194, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: edd738c1e61701e4c8d7dcb1aa194fc5, type: 3}
     - target: {fileID: 8382235767891551923, guid: ba4d7bf4628f92f4d80e82dc0cb88507, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 88.3
@@ -17067,11 +17075,11 @@ PrefabInstance:
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: 850480111023e754badb4226b79fdb5a, type: 3}
     - target: {fileID: 966495052611212353, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: 7982bf081722041119ad5d6f069820cd, type: 3}
+      objectReference: {fileID: 8300000, guid: b9928d118c7d3744a8701901304c2e40, type: 3}
     - target: {fileID: 1872736224630898201, guid: b66f090834599464889b2b62eb5dcff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.37
