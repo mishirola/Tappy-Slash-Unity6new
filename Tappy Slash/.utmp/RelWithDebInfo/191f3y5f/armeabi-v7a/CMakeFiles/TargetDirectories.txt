@@ -1,0 +1,5 @@
+C:/Users/ronte/Downloads/Tappy-Slash-Unity6new/Tappy Slash/.utmp/RelWithDebInfo/191f3y5f/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/ronte/Downloads/Tappy-Slash-Unity6new/Tappy Slash/.utmp/RelWithDebInfo/191f3y5f/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/ronte/Downloads/Tappy-Slash-Unity6new/Tappy Slash/.utmp/RelWithDebInfo/191f3y5f/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/ronte/Downloads/Tappy-Slash-Unity6new/Tappy Slash/.utmp/RelWithDebInfo/191f3y5f/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/ronte/Downloads/Tappy-Slash-Unity6new/Tappy Slash/.utmp/RelWithDebInfo/191f3y5f/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+C:\Users\ronte\Downloads\Tappy-Slash-Unity6new\Tappy Slash\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\191f3y5f\obj\armeabi-v7a
